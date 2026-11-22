@@ -1,0 +1,41 @@
+name: MasterRadar - provera stipendija i novih Erasmus mastera
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 7 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "masterradar_refresh.py"
+      - ".github/workflows/masterradar.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: masterradar-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Proveri zvanicne izvore i EU katalog
+        run: python masterradar_refresh.py
+      - name: Zapamti proverene izvore i nove predloge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/masterradar/data/health.json site/masterradar/data/discovered.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh MasterRadar source checks and candidate discoveries"
+            git pull --rebase origin main
+            git push
+          fi
