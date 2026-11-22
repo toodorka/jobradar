@@ -16,12 +16,12 @@
       "lastChangedAt": null,
       "fingerprint": "85041df7ba3795c17a6c"
     },
-    "clide": {
+    "polimi": {
       "checkedAt": "2026-11-22",
-      "url": "https://clide.umk.pl/pages/apply/",
+      "url": "https://dynamicpoli.polimi.it/en/prospective-students/how-much-does-it-cost/scholarships",
       "reachable": true,
       "lastChangedAt": null,
-      "fingerprint": "c74014686ed85576931e"
+      "fingerprint": "4ab004d3fdc90a1b02bc"
     },
     "mapp": {
       "checkedAt": "2026-11-22",
@@ -37,26 +37,12 @@
       "lastChangedAt": null,
       "fingerprint": "be909941a34ce755181a"
     },
-    "polimi": {
+    "clide": {
       "checkedAt": "2026-11-22",
-      "url": "https://dynamicpoli.polimi.it/en/prospective-students/how-much-does-it-cost/scholarships",
+      "url": "https://clide.umk.pl/pages/apply/",
       "reachable": true,
       "lastChangedAt": null,
-      "fingerprint": "4ab004d3fdc90a1b02bc"
-    },
-    "meta40": {
-      "checkedAt": "2026-11-22",
-      "url": "https://portal.master-meta4-0.eu/index.php",
-      "reachable": true,
-      "lastChangedAt": null,
-      "fingerprint": "8c9b079cf4dd27f28b48"
-    },
-    "padova": {
-      "checkedAt": "2026-11-22",
-      "url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
-      "reachable": true,
-      "lastChangedAt": null,
-      "fingerprint": "45c7c7c41addc49abc84"
+      "fingerprint": "c74014686ed85576931e"
     },
     "noha": {
       "checkedAt": "2026-11-22",
@@ -65,38 +51,30 @@
       "lastChangedAt": null,
       "fingerprint": "faa575d31d8726372ec5"
     },
+    "meta40": {
+      "checkedAt": "2026-11-22",
+      "url": "https://portal.master-meta4-0.eu/index.php",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "8c9b079cf4dd27f28b48"
+    },
+    "kaist": {
+      "checkedAt": "2026-11-22",
+      "url": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "58ac12b56741e47d488a"
+    },
+    "padova": {
+      "checkedAt": "2026-11-22",
+      "url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "45c7c7c41addc49abc84"
+    },
     "mbzuai": {
       "checkedAt": "2026-11-22",
       "url": "https://mbzuai.ac.ae/admissions/graduate-masters-admissions",
-      "reachable": null,
-      "lastChangedAt": null,
-      "fingerprint": null,
-      "error": "HTTPError"
-    },
-    "changan": {
-      "checkedAt": "2026-11-22",
-      "url": "https://ies.chd.edu.cn/en/2026/1109/c8645a263520/page.htm",
-      "reachable": true,
-      "lastChangedAt": null,
-      "fingerprint": "9f90a8053041c1e8613d"
-    },
-    "kdi": {
-      "checkedAt": "2026-11-22",
-      "url": "https://www.kdischool.ac.kr/menu.es?mid=a40203000000",
-      "reachable": true,
-      "lastChangedAt": null,
-      "fingerprint": "b8b4cb4a9a1043f80ceb"
-    },
-    "stanford": {
-      "checkedAt": "2026-11-22",
-      "url": "https://msande.stanford.edu/academics-admissions/graduate/admission/ms-admission",
-      "reachable": true,
-      "lastChangedAt": null,
-      "fingerprint": "82afb094cca850ce9fc8"
-    },
-    "fulbright": {
-      "checkedAt": "2026-11-22",
-      "url": "https://rs.usembassy.gov/fulbright-graduate-study-program-competition-2027-2028/",
       "reachable": null,
       "lastChangedAt": null,
       "fingerprint": null,
@@ -108,6 +86,35 @@
       "reachable": true,
       "lastChangedAt": null,
       "fingerprint": "b4c15382168739f17ffd"
+    },
+    "kdi": {
+      "checkedAt": "2026-11-22",
+      "url": "https://www.kdischool.ac.kr/menu.es?mid=a40203000000",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "b8b4cb4a9a1043f80ceb"
+    },
+    "fulbright": {
+      "checkedAt": "2026-11-22",
+      "url": "https://rs.usembassy.gov/fulbright-graduate-study-program-competition-2027-2028/",
+      "reachable": null,
+      "lastChangedAt": null,
+      "fingerprint": null,
+      "error": "HTTPError"
+    },
+    "stanford": {
+      "checkedAt": "2026-11-22",
+      "url": "https://msande.stanford.edu/academics-admissions/graduate/admission/ms-admission",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "82afb094cca850ce9fc8"
+    },
+    "gks": {
+      "checkedAt": "2026-11-22",
+      "url": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "450ee45787a92e92bf20"
     },
     "gemma": {
       "checkedAt": "2026-11-22",
@@ -124,13 +131,6 @@
       "lastChangedAt": null,
       "fingerprint": "d937c2de14e1efba3193"
     },
-    "gks": {
-      "checkedAt": "2026-11-22",
-      "url": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
-      "reachable": true,
-      "lastChangedAt": null,
-      "fingerprint": "450ee45787a92e92bf20"
-    },
     "kaust": {
       "checkedAt": "2026-11-22",
       "url": "https://tie.kaust.edu.sa/",
@@ -138,13 +138,12 @@
       "lastChangedAt": null,
       "fingerprint": "d35a7a96ac250d80366d"
     },
-    "kaist": {
+    "changan": {
       "checkedAt": "2026-11-22",
-      "url": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
-      "reachable": null,
+      "url": "https://ies.chd.edu.cn/en/2026/1109/c8645a263520/page.htm",
+      "reachable": true,
       "lastChangedAt": null,
-      "fingerprint": null,
-      "error": "URLError"
+      "fingerprint": "9f90a8053041c1e8613d"
     }
   }
 }
