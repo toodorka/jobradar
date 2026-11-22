@@ -4,17 +4,17 @@ Web aplikacija za pronalaženje i rangiranje poslova prema iskustvu u kvalitetu,
 
 **Prioritet:** Beograd i Novi Sad, zatim zemlje EU i remote oglasi. Rezultati nisu prijave, niti garantuju da poslodavac podržava radnu dozvolu.
 
-## Pokreni aplikaciju — prvi put
+## Otvori JobRadar bez podešavanja Pages-a
 
-1. U ovom repozitorijumu otvori **Settings → Pages**.
-2. U odeljku **Build and deployment**, izaberi **Source: GitHub Actions**.
-3. Otvori **Actions → JobRadar - pretraga i objavljivanje → Run workflow → Run workflow**.
-4. Kad workflow završi uspešno, stranica će biti na adresi: **https://toodorka.github.io/jobradar/**.
-5. Na iPhone-u otvori tu adresu u Safari-ju, zatim **Share → Add to Home Screen**.
+**[OTVORI JOBRADAR](https://raw.githack.com/toodorka/jobradar/main/site/index.html)**
+
+Ovaj prikaz radi preko javnog GitHack posrednika za GitHub HTML fajlove, bez naloga ili podešavanja. Prvi put servis može prikazati jednu potvrdu pre otvaranja HTML-a. U pitanju je rešenje za ličnu upotrebu / testiranje, ne garantovani produkcioni hosting. Podaci o poslovima se osvežavaju iz ovog javnog repozitorijuma, uz kratko keširanje.
+
+Na iPhone-u: otvori link u Safari-ju; po želji Share → Add to Home Screen. Ne unosi osetljive lične podatke u beleške na ovakvom javnom posredničkom hostingu.
 
 ## Ažuriranje
 
-Workflow `.github/workflows/jobradar.yml` pokreće se četiri puta dnevno, u 01:17, 07:17, 13:17 i 19:17 UTC (GitHub može kasniti). Podaci se upisuju u `site/data/jobs.json`, a stranica se objavljuje preko GitHub Pages. Možeš i ručno kliknuti **Run workflow**.
+Workflow `.github/workflows/jobradar.yml` pokreće se četiri puta dnevno, u 01:17, 07:17, 13:17 i 19:17 UTC (GitHub može kasniti). Podaci se upisuju u `site/data/jobs.json`, a stranica se može otvoriti preko javnog GitHack pregledača HTML-a (bez GitHub Pages aktivacije). Možeš i ručno kliknuti **Run workflow**.
 
 ## Izvori poslova
 
@@ -33,6 +33,6 @@ Javni GitHub repozitorijum ne sadrži tvoj kompletan CV ni lične kontakt podatk
 - `site/index.html`: mobilna aplikacija
 - `collector.py`: sakupljanje, deduplikacija i rangiranje oglasa
 - `site/data/jobs.json`: podaci za dashboard
-- `.github/workflows/jobradar.yml`: zakazivanje i GitHub Pages objavljivanje
+- `.github/workflows/jobradar.yml`: zakazivanje i čuvanje ažuriranih podataka
 
 **Napomena:** Prikazana ocena 'CV match' nije procenat šanse da dobiješ posao. EU/remote oglasi ne podrazumevaju automatski pravo rada ili sponzorstvo za vizu.
