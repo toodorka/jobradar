@@ -172,7 +172,47 @@ function settings(){
  card('Backup & privatnost','<p class="muted">Izvezi sve podatke u JSON datoteku i sačuvaj je na sigurno. Možeš ih posle uvesti na isti ili drugi uređaj.</p><div class="row-wrap">'+btn('↓ Izvezi backup','export','','secondary small')+'<label class="btn ghost small" style="display:inline-flex;align-items:center">↑ Uvezi backup<input id="fileImport" type="file" accept=".json,application/json" style="display:none"></label></div><div style="margin-top:19px">'+btn('Obriši sve unose','reset','','ghost small')+'</div><p class="help">Nisu potrebni posebni uređaji. Vrednosti se unose ručno; app ne zna koliko si pojela, hodala ili spavala bez tvog unosa.</p>')+'</div></div>';
  out+='<p class="footer-note">made to bloom, not to burn out ✿</p>';return out;
 }
-function render(){var views={home:home,training:training,food:food,calendar:calendar,progress:progress,settings:settings};document.getElementById('app').innerHTML=views[ui.tab]();document.querySelectorAll('#nav button').forEach(function(b){b.classList.toggle('active',b.dataset.tab===ui.tab);});document.getElementById('topDate').textContent=weekNames[new Date().getDay()]+', '+dateShort(localDate());}
+
+/* Shaolin China preparation — separate from the general wellness plan. */
+var shaolinStart='2026-12-01';
+var shaolinPhases=[
+ {name:'Temelji',period:'Dec 2026 – feb 2027',desc:'Izgradi naviku, tehniku pokreta, osnovnu snagu i miran ritam.',sessions:3},
+ {name:'Snaga i izdržljivost',period:'Mar – maj 2027',desc:'Postepeno duži treninzi, ravnoteža, osnovni stavovi i više hodanja.',sessions:4},
+ {name:'Shaolin baza',period:'Jun – avg 2027',desc:'Više vremena na nogama, mobilnost i osnovni stavovi bez forsiranja.',sessions:4},
+ {name:'Kamp simulacija',period:'Sep 2027 nadalje',desc:'Prilagodi poslednjih 4–6 nedelja stvarnom terminu i zahtevima škole; bez naglog povećanja opterećenja.',sessions:4}
+];
+var shaolinDays=[
+ {title:'Snaga A + hodanje',icon:'💪',tasks:[['Zagrevanje i mobilnost','8 min'],['Čučanj do stolice','2 × 8–10'],['Sklek uz zid ili povišenje','2 × 6–10'],['Glute bridge','2 × 10–12'],['Bird dog','2 × 8 / strana'],['Brzo hodanje','20–30 min']]},
+ {title:'Mobilnost + disanje',icon:'🧘',tasks:[['Lagano razgibavanje zglobova','5 min'],['Mobilnost kukova i skočnih zglobova','10 min'],['Lagano istezanje zadnje lože','5 min'],['Ravnoteža na jednoj nozi uz oslonac','3 × 20 s'],['Mirno disanje / meditacija','5–10 min']]},
+ {title:'Kondicija + core',icon:'🥋',tasks:[['Zagrevanje hodanjem','5 min'],['Brži hod ili lagani bicikl','25–35 min'],['Step-up na nisku stepenicu','2 × 8 / noga'],['Dead bug','2 × 8 / strana'],['Plank na kolenima','2 × 15–25 s']]},
+ {title:'Aktivni oporavak',icon:'🌿',tasks:[['Lagana šetnja po želji','20–30 min'],['Nežna mobilnost','10 min'],['Kratka meditacija','5 min']]},
+ {title:'Snaga B + stavovi',icon:'🌸',tasks:[['Zagrevanje','8 min'],['Iskorak unazad uz oslonac','2 × 6–8 / noga'],['Veslanje gumom ili laganom bučicom','2 × 10'],['Podizanje na prste','2 × 12'],['Blagi horse stance uz viši položaj','3 × 15–20 s'],['Istezanje i disanje','8 min']]},
+ {title:'Duga lagana šetnja',icon:'👟',tasks:[['Šetnja u razgovornom tempu','40–60 min'],['Mobilnost nogu i leđa','10 min'],['Kratka refleksija','5 min']]},
+ {title:'Odmor + refleksija',icon:'☁️',tasks:[['Odmor bez obaveznog treninga','—'],['Kako se osećam i šta mi prija?','5 min'],['Priprema naredne nedelje','5 min']]}
+];
+function shaolinPhase(date){var d=parseDate(date);return d<new Date(2027,2,1)?0:d<new Date(2027,5,1)?1:d<new Date(2027,8,1)?2:3;}
+function shaolinWeek(date){return Math.max(1,Math.floor((parseDate(date)-parseDate(shaolinStart))/604800000)+1);}
+function shaolinTasks(date){var d=parseDate(date),index=(d.getDay()+6)%7;return {day:shaolinDays[index],index:index,phase:shaolinPhase(date)};}
+function shaolinChecked(date,id){return !!(readEntry(date).habits||{})['shaolin_'+id];}
+function shaolin(){
+ var date=ui.date,info=shaolinTasks(date),p=shaolinPhases[info.phase],day=info.day;
+ var out=viewTitle('CHINA 2027 · SIX-WEEK CAMP','Shaolin Preparation 🥋','Tvoj dugoročni plan za fizičku i mentalnu pripremu za šest nedelja u Kini.');
+ out+='<div class="hero-card" style="min-height:0;margin-bottom:18px"><div class="eyebrow">THE DISCIPLINE ERA ✿</div><h1>Strong body.<br>Calm mind.</h1><p>Pripreme počinju lagano. Fokus: izdržljivost, snaga, pokretljivost i svakodnevna disciplina — bez izgladnjivanja i pretreniranosti.</p><span class="pill lav">Cilj: posle leta 2027.</span></div>';
+ out+='<div class="stats">'+stat('🥋',''+shaolinWeek(date),'Nedelja plana','Od 1. decembra 2026.')+stat('🌸',(info.phase+1)+'/4','Faza pripreme',p.name)+stat('📅','6','Nedelja u Kini','Planirani boravak')+stat('✨',weekDates(date).reduce(function(n,d){return n+(shaolinChecked(d,'day')?1:0);},0)+'/7','Dani praćenja','Ove nedelje')+'</div>';
+ out+='<div class="section-title"><h2>Faze tvog puta</h2></div><div class="two-col">'+shaolinPhases.map(function(x,i){return '<div class="tile" style="'+(i===info.phase?'border-color:#ca7fa5;background:#fff4f8':'')+'"><span class="pill '+(i===info.phase?'lav':'')+'">FAZA '+(i+1)+(i===info.phase?' · AKTUELNA':'')+'</span><h3 style="margin:12px 0 5px">'+x.name+'</h3><small class="muted">'+x.period+'</small><p class="muted">'+x.desc+'</p></div>';}).join('')+'</div>';
+ out+='<div class="section-title"><h2>Tvoj dnevni plan</h2><span class="subtitle">'+dateTitle(date)+'</span></div>'+strip();
+ var done=0;var list=day.tasks.map(function(t,i){var key='task_'+i,checked=shaolinChecked(date,key);if(checked)done++;return '<label class="exercise"><span class="num">'+String(i+1).padStart(2,'0')+'</span><span class="exname"><b>'+safe(t[0])+'</b><small style="display:block">'+safe(t[1])+'</small></span><input type="checkbox" data-act="shaolin-check" data-key="'+key+'" '+(checked?'checked':'')+'></label>';}).join('');
+ out+=card(day.icon+' '+day.title+' · '+p.name,'<p class="muted">Ovo je početna nedelja kao bezbedna polazna tačka. Kasnije postepeno produžavaj trajanje i povećavaj serije samo kada se dobro oporavljaš. Na dane oporavka nema obaveznog napora.</p><div class="workout">'+list+'</div><div class="row" style="margin-top:16px"><span class="pill">'+done+'/'+day.tasks.length+' zadataka</span>'+btn(shaolinChecked(date,'day')?'✓ Dan završen':'Završi dan ✨','shaolin-finish','','secondary small')+'</div>');
+ out+='<div class="section-title"><h2>Mentalni trening</h2></div>';
+ var rituals=[['mind','5–10 min meditacije ili mirnog disanja','🧘'],['journal','Zapiši jednu stvar koju si danas savladala','📓'],['phone','30 min bez telefona pre spavanja','📵'],['sleep','Redovan san i vreme za oporavak','🌙']];
+ out+=card('Daily discipline, soft power',rituals.map(function(t){return '<label class="exercise"><span class="num">'+t[2]+'</span><span class="exname"><b>'+t[1]+'</b></span><input type="checkbox" data-act="shaolin-check" data-key="'+t[0]+'" '+(shaolinChecked(date,t[0])?'checked':'')+'></label>';}).join(''));
+ out+='<div class="section-title"><h2>Kontrola spremnosti · jednom mesečno</h2></div>';
+ out+=card('Tvoj baseline, ne takmičenje','<p class="muted">Na kraju meseca zabeleži: koliko minuta možeš udobno da hodaš, broj kontrolisanih čučnjeva i sklekova uz oslonac, plank i subjektivnu energiju. Ne radi testove do iscrpljenja.</p><div class="row-wrap">'+btn('Dodaj belešku i energiju','checkin','','secondary small')+btn('Vidi napredak','go-tab','data-target="progress"','ghost small')+'</div>');
+ out+='<div class="nudge" style="margin-top:16px">💗 Važno: ovo je pripremni, početnički plan, ne stvarni raspored konkretne škole. Pošto si ranije pominjala jak umor i žeđ, pre pojačavanja intenziteta proveri rezultate sa lekarom. Prekini vežbu kod vrtoglavice, bola u grudima ili neobične slabosti. Plan ishrane nije restriktivna dijeta.</div>';
+ return out;
+}
+
+function render(){var views={shaolin:shaolin,home:home,training:training,food:food,calendar:calendar,progress:progress,settings:settings};document.getElementById('app').innerHTML=views[ui.tab]();document.querySelectorAll('#nav button').forEach(function(b){b.classList.toggle('active',b.dataset.tab===ui.tab);});document.getElementById('topDate').textContent=weekNames[new Date().getDay()]+', '+dateShort(localDate());}
 function go(tab){ui.tab=tab;render();window.scrollTo({top:0,behavior:'smooth'});}
 var toastTimer;
 function toast(msg){var el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(function(){el.classList.remove('show');},2600);}
@@ -216,6 +256,8 @@ document.addEventListener('click',function(ev){
  var el=ev.target.closest('[data-act]');if(!el)return;
  var a=el.dataset.act,e=entry(ui.date),d=el.dataset.date;
  if(a==='go-tab'){go(el.dataset.target);return;}
+ if(a==='shaolin-check'){var sh=entry(ui.date);sh.habits=sh.habits||{};var hk='shaolin_'+el.dataset.key;sh.habits[hk]=!sh.habits[hk];save();render();return;}
+ if(a==='shaolin-finish'){var sh2=entry(ui.date);sh2.habits=sh2.habits||{};sh2.habits.shaolin_day=!sh2.habits.shaolin_day;save();render();toast(sh2.habits.shaolin_day?'Shaolin dan sačuvan 🥋':'Oznaka dana uklonjena');return;}
  if(a==='select-date'||a==='select-calendar-date'){ui.date=d;if(a==='select-calendar-date')ui.month=d.slice(0,7);render();return;}
  if(a==='month-prev'||a==='month-next'){var x=new Date(Number(ui.month.slice(0,4)),Number(ui.month.slice(5,7))-1+(a==='month-next'?1:-1),1,12);ui.month=localDate(x).slice(0,7);render();return;}
  if(a==='water-up'||a==='water-down'){var t=entry(localDate());t.water=Math.max(0,Math.min(15000,t.water+(a==='water-up'?250:-250)));save();render();return;}
