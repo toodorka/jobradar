@@ -34,6 +34,19 @@ KEYS = {"management": 92, "leadership": 88, "innovation": 86,
         "finance": 66, "work": 70, "systems": 74}
 STOP = ("cookie", "privacy", "contact", "language", "facebook", "linkedin", "youtube",
         "accessibility", "newsletter", "european commission", "erasmus mundus catalogue")
+# Generic words such as "management" and "global" must not turn unrelated biology,
+# geology or medicine degrees into high-scoring CV matches.
+UNRELATED = (
+    "biodivers", "forestr", "forest", "ecolog", "earth observation",
+    "marine engineering", "coastal", "civil infrastructure",
+    "semiconductor", "vaccin", "nanomaterial", "planthealth", "plant health",
+    "groundwater", "soil", "insect", "agricultur", "biological", "bioeconomy",
+    "mineral and metal", "hydrogen", "linguistic data", "brain and data",
+    "renewable energy", "religious diversity", "bioinspired", "cartography",
+    "medical technology", "food innovation", "global change ecology",
+    "cultural entrepreneurship", "mathematical modelling"
+)
+
 TODAY = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
 
 class AnchorParser(HTMLParser):
@@ -116,10 +129,22 @@ def discover(known: list[dict]) -> dict:
                     any(z in title.lower() for z in STOP)):
                     continue
                 q = title.lower()
+                if any(word in q for word in UNRELATED):
+                    continue
                 matches = [score for word, score in KEYS.items() if word in q]
                 if not matches: continue
                 score = max(matches)
                 if score < 65: continue
+                # A very generic "management" is not a sufficient evidence of fit.
+                if score == 92 and "management" in q and not any(
+                    key in q for key in (
+                        "technology", "industrial", "business", "project",
+                        "global market", "risk", "operations", "policy",
+                        "leadership", "supply chain", "logistic", "innovation",
+                        "sustainable", "engineering", "humanitarian"
+                    )
+                ):
+                    score = 70
                 slug = hashlib.sha1((host + title.lower()).encode()).hexdigest()[:12]
                 entries[slug] = {
                     "id": "eu-" + slug, "title": title, "university": "Erasmus Mundus katalog — proveriti konzorcijum",
