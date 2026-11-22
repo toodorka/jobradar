@@ -51,6 +51,8 @@ jobs:
           fi
       - name: Postavi GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Pripremi sajt
         uses: actions/upload-pages-artifact@v3
         with:
