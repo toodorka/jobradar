@@ -123,7 +123,7 @@ function food(){
  out+=strip();
  out+='<div class="stats">'+stat('🍽️',formatN(total),'Ukupno uneto',state.calorieTarget?'Cilj '+formatN(state.calorieTarget)+' kcal':'Bez kalorijskog limita')+stat('🥚',round(prot)+' g','Proteini',state.proteinTarget?'Cilj '+state.proteinTarget+' g':'Praćenje po želji')+stat('🥗',e.meals.length,'Uneti obroci','U odabranom danu')+stat('🫶',formatN(planSum(ui.date)),'Primer jelovnika','Zbir predloga za dan')+'</div>';
  out+='<div class="section-title"><h2>Plan obroka za '+dateShort(ui.date)+'</h2>'+btn('Pregled 7 dana','week-menu','','secondary small')+'</div>';
- out+=card('Ideje za danas',plan.map(function(m,i){return mealRow(Object.assign({name:mealNames[i]+': '+m.name},m),i,false);}).join('')+'<p class="help">Porcije i nutritivne vrednosti su ilustrativne; stvarne zavise od količine, sastojaka i pripreme. Dodaj samo ono što si zaista pojela.</p>');
+ out+=card('Ideje za danas',plan.map(function(m,i){return mealRow(Object.assign({},m,{name:mealNames[i]+': '+m.name}),i,false);}).join('')+'<p class="help">Porcije i nutritivne vrednosti su ilustrativne; stvarne zavise od količine, sastojaka i pripreme. Dodaj samo ono što si zaista pojela.</p>');
  out+='<div class="section-title"><h2>Moj dnevnik ishrane</h2>'+btn('+ Ručni unos obroka','manual-meal','','')+'</div>';
  out+=card('Šta si unela?',e.meals.length?e.meals.map(function(m,i){return mealRow(m,i,true,i);}).join(''):'<div class="empty"><span class="sparkle">🍓</span>Još nema unetih obroka. Dodaj obrok iz predloga ili napiši šta si jela.</div>');
  if(state.calorieTarget){out+=card('Energetski cilj',bar(percent(total,state.calorieTarget))+'<p class="muted">Uneto '+total+' / '+state.calorieTarget+' kcal. Broj služi samo kao evidencija, nije ocena dana.</p>');}
