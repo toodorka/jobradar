@@ -1,0 +1,60 @@
+name: JobRadar - pretraga i objavljivanje
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1,7,13,19 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "collector.py"
+      - "site/**"
+      - ".github/workflows/jobradar.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: jobradar-publication
+  cancel-in-progress: false
+
+jobs:
+  scan-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Preuzmi kod
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pretrazi oglase i rangiraj
+        env:
+          JOOBLE_RS_KEY: ${{ secrets.JOOBLE_RS_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python collector.py
+      - name: Sacuvaj novo stanje na GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/jobs.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update JobRadar jobs [skip ci]"
+            git push
+          fi
+      - name: Postavi GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Pripremi sajt
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Objavi sajt
+        id: deployment
+        uses: actions/deploy-pages@v4
