@@ -1,6 +1,6 @@
 {
   "app": "JobRadar",
-  "generated_at": "2026-11-22T18:53:11+00:00",
+  "generated_at": "2026-11-23T00:19:23+00:00",
   "job_count": 73,
   "jobs": [
     {
@@ -34,21 +34,6 @@
       "source": "Bosch"
     },
     {
-      "id": "d7c66f251abcc26e",
-      "title": "Manager, Analytics, Fraud, UK",
-      "company": "Tide",
-      "location": "Bulgaria",
-      "region": "EU",
-      "category": "Business Analysis & BI",
-      "score": 73,
-      "why": "Oblast: Business Analysis & BI. Veštine: sql, excel, kpi, reporting.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
-      "posted_at": "2026-11-05T02:20:44-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
       "id": "d4a7fa8815154a25",
       "title": "Senior Specialist, Market Planning",
       "company": "Wolt",
@@ -62,6 +47,21 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Wolt"
+    },
+    {
+      "id": "d7c66f251abcc26e",
+      "title": "Manager, Analytics, Fraud, UK",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 73,
+      "why": "Oblast: Business Analysis & BI. Veštine: sql, excel, kpi, reporting.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
+      "posted_at": "2026-11-05T02:20:44-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
     },
     {
       "id": "82eb4ca510119943",
@@ -199,36 +199,6 @@
       "source": "Bosch"
     },
     {
-      "id": "a7583dd5ef1bdd32",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Bulgaria",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
-      "posted_at": "2026-11-18T11:04:55-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
-      "id": "b9e87c959ce88057",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Lithuania",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
-      "posted_at": "2026-11-19T06:40:16-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
       "id": "def03cbf988dbf4f",
       "title": "Regional HR Operations Specialist",
       "company": "Wolt",
@@ -289,31 +259,31 @@
       "source": "Wolt"
     },
     {
-      "id": "b2ccbb938cfcc7fd",
-      "title": "Site Reliability Engineering Manager",
+      "id": "a7583dd5ef1bdd32",
+      "title": "Senior Security Operations Responder",
       "company": "Tide",
-      "location": "Lithuania",
+      "location": "Bulgaria",
       "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 64,
-      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8044352003",
-      "posted_at": "2026-11-16T03:35:50-05:00",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
+      "posted_at": "2026-11-18T11:04:55-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
     },
     {
-      "id": "444171423802afc9",
-      "title": "Site Reliability Engineering Manager",
+      "id": "b9e87c959ce88057",
+      "title": "Senior Security Operations Responder",
       "company": "Tide",
-      "location": "Bulgaria",
+      "location": "Lithuania",
       "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 64,
-      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8044286003",
-      "posted_at": "2026-11-16T03:35:50-05:00",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
+      "posted_at": "2026-11-19T06:40:16-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
@@ -347,6 +317,36 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Wolt"
+    },
+    {
+      "id": "444171423802afc9",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Quality & Engineering",
+      "score": 64,
+      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8044286003",
+      "posted_at": "2026-11-16T03:35:50-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
+    },
+    {
+      "id": "b2ccbb938cfcc7fd",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Tide",
+      "location": "Lithuania",
+      "region": "EU",
+      "category": "Quality & Engineering",
+      "score": 64,
+      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8044352003",
+      "posted_at": "2026-11-16T03:35:50-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
     },
     {
       "id": "ed4961734f179cd9",
@@ -634,6 +634,21 @@
       "source": "Continental"
     },
     {
+      "id": "daa49480a0475824",
+      "title": "IT Project Manager – Finance & Digital Transformation",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 58,
+      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
+      "posted_at": null,
+      "first_seen": "2026-11-22T18:36:39+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
+    },
+    {
       "id": "6912a9e69459e618",
       "title": "Senior Data Analyst",
       "company": "Endava",
@@ -752,21 +767,6 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Endava"
-    },
-    {
-      "id": "daa49480a0475824",
-      "title": "IT Project Manager – Finance & Digital Transformation",
-      "company": "Aleph",
-      "location": "Madrid, Spain",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 58,
-      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
-      "posted_at": null,
-      "first_seen": "2026-11-22T18:36:39+00:00",
-      "visa_mentioned": false,
-      "source": "Aleph"
     },
     {
       "id": "b848a1f73672ed9a",
