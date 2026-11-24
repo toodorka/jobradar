@@ -1,6 +1,6 @@
 {
   "app": "JobRadar",
-  "generated_at": "2026-11-24T00:52:29+00:00",
+  "generated_at": "2026-11-24T10:56:13+00:00",
   "job_count": 69,
   "jobs": [
     {
@@ -73,7 +73,7 @@
       "score": 73,
       "why": "Oblast: Business Analysis & BI. Veštine: sql, excel, kpi, reporting.",
       "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
-      "posted_at": "2026-11-05T02:20:44-05:00",
+      "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
@@ -259,6 +259,21 @@
       "source": "Wolt"
     },
     {
+      "id": "ee4fb01b872ebf7a",
+      "title": "Strategy & Business Operations Manager, Wolt Drive & Deliveroo Express",
+      "company": "Wolt",
+      "location": "Helsinki, Finland; London, United Kingdom - Deliveroo",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, operations, logistics.",
+      "url": "https://job-boards.greenhouse.io/wolt/jobs/8336365",
+      "posted_at": "2026-11-24T01:41:08-05:00",
+      "first_seen": "2026-11-24T10:56:13+00:00",
+      "visa_mentioned": false,
+      "source": "Wolt"
+    },
+    {
       "id": "badd59ff8bb0a8f3",
       "title": "Strategy & Operations Manager, Pricing & Affordability",
       "company": "Wolt",
@@ -274,21 +289,6 @@
       "source": "Wolt"
     },
     {
-      "id": "a7583dd5ef1bdd32",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Bulgaria",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
-      "posted_at": "2026-11-18T11:04:55-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
       "id": "b9e87c959ce88057",
       "title": "Senior Security Operations Responder",
       "company": "Tide",
@@ -298,7 +298,22 @@
       "score": 67,
       "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
       "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
-      "posted_at": "2026-11-19T06:40:16-05:00",
+      "posted_at": "2026-11-23T23:39:48-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
+    },
+    {
+      "id": "a7583dd5ef1bdd32",
+      "title": "Senior Security Operations Responder",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
+      "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
@@ -358,7 +373,7 @@
       "score": 64,
       "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
       "url": "https://job-boards.greenhouse.io/tide/jobs/8044352003",
-      "posted_at": "2026-11-16T03:35:50-05:00",
+      "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
@@ -373,7 +388,7 @@
       "score": 64,
       "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
       "url": "https://job-boards.greenhouse.io/tide/jobs/8044286003",
-      "posted_at": "2026-11-16T03:35:50-05:00",
+      "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
@@ -420,21 +435,6 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163213354",
       "posted_at": "2026-11-23T12:42:52.287Z",
       "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "cf27dff0f4fffee6",
-      "title": "Senior Consultant SAP S/4 HANA Supply Chain Management EWM (w/m/div.)",
-      "company": "Bosch",
-      "location": "Feuerbach, de",
-      "region": "EU",
-      "category": "Supply Chain & Logistics",
-      "score": 64,
-      "why": "Oblast: Supply Chain & Logistics. Veštine: sap, supply chain.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162021959",
-      "posted_at": "2026-11-17T08:53:01.941Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
     },
@@ -527,6 +527,36 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Continental"
+    },
+    {
+      "id": "e2755fd8ff87c7ab",
+      "title": "Corporate Accounting and Reporting Expert – Home Comfort Focus on IFRS (f/m/div.)",
+      "company": "Bosch",
+      "location": "Wetzlar, HE, de",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 61,
+      "why": "Oblast: Business Analysis & BI. Veštine: reporting.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163425644",
+      "posted_at": "2026-11-24T10:22:11.654Z",
+      "first_seen": "2026-11-24T10:56:13+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
+      "id": "7dd98ab18fd59eb1",
+      "title": "Experte Corporate Accounting und Reporting Home Comfort – Schwerpunkt IFRS (w/m/div.)",
+      "company": "Bosch",
+      "location": "Wetzlar, HE, de",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 61,
+      "why": "Oblast: Business Analysis & BI. Veštine: reporting.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163425799",
+      "posted_at": "2026-11-24T10:21:36.782Z",
+      "first_seen": "2026-11-24T10:56:13+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
     },
     {
       "id": "0979d3194dd93c4e",
@@ -679,21 +709,6 @@
       "source": "Bosch"
     },
     {
-      "id": "daa49480a0475824",
-      "title": "IT Project Manager – Finance & Digital Transformation",
-      "company": "Aleph",
-      "location": "Madrid, Spain",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 58,
-      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
-      "posted_at": null,
-      "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Aleph"
-    },
-    {
       "id": "6912a9e69459e618",
       "title": "Senior Data Analyst",
       "company": "Endava",
@@ -814,6 +829,21 @@
       "source": "Endava"
     },
     {
+      "id": "daa49480a0475824",
+      "title": "IT Project Manager – Finance & Digital Transformation",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 58,
+      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
+    },
+    {
       "id": "5235cdf8750f5612",
       "title": "IT EDI Integration Project Coordinator",
       "company": "Continental",
@@ -874,6 +904,21 @@
       "source": "Continental"
     },
     {
+      "id": "c09af0d045feb406",
+      "title": "Junior Distribution, Demand and Supply Planning Specialist",
+      "company": "Bosch",
+      "location": "Goleniów, Województwo zachodniopomorskie, pl",
+      "region": "EU",
+      "category": "Supply Chain & Logistics",
+      "score": 58,
+      "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163390149",
+      "posted_at": "2026-11-24T06:49:20.258Z",
+      "first_seen": "2026-11-24T10:56:13+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
       "id": "2c545ed2011ee039",
       "title": "Buyer and Category Manager EMEA (f/m/div.)",
       "company": "Bosch",
@@ -884,21 +929,6 @@
       "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163222301",
       "posted_at": "2026-11-23T13:36:17.247Z",
-      "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "ca79514bc96a41a7",
-      "title": "Distribution, Demand and Supply Planning Specialist",
-      "company": "Bosch",
-      "location": "Goleniów, Województwo zachodniopomorskie, pl",
-      "region": "EU",
-      "category": "Supply Chain & Logistics",
-      "score": 58,
-      "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163177363",
-      "posted_at": "2026-11-23T09:46:57.458Z",
       "first_seen": "2026-11-24T00:52:29+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
@@ -1007,36 +1037,6 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
-    },
-    {
-      "id": "50e19179f4ad8eb9",
-      "title": "Director Consulting: Business Strategy, Innovation & New Technologies (f/m/div.)",
-      "company": "Bosch",
-      "location": "Gerlingen, BW, de",
-      "region": "EU",
-      "category": "Innovation & Transformation",
-      "score": 58,
-      "why": "Oblast: Innovation & Transformation. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162024029",
-      "posted_at": "2026-11-17T09:01:08.683Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "37be27e656579932",
-      "title": "Pflichtpraktikum im Bereich Innovation in der automobilen Vernetzung und Technologien für softwaredefinierte Fahrzeuge (w/m/div.)",
-      "company": "Bosch",
-      "location": "Stuttgart, BW, de",
-      "region": "EU",
-      "category": "Innovation & Transformation",
-      "score": 58,
-      "why": "Oblast: Innovation & Transformation. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162011439",
-      "posted_at": "2026-11-17T07:52:58.671Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
     }
   ],
   "sources": [
@@ -1047,7 +1047,7 @@
     },
     {
       "name": "Bosch",
-      "count": 27,
+      "count": 26,
       "status": "ok"
     },
     {
@@ -1087,7 +1087,7 @@
     },
     {
       "name": "Wolt",
-      "count": 12,
+      "count": 13,
       "status": "ok"
     }
   ],
