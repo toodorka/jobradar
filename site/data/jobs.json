@@ -1,7 +1,7 @@
 {
   "app": "JobRadar",
-  "generated_at": "2026-11-23T09:08:14+00:00",
-  "job_count": 65,
+  "generated_at": "2026-11-24T00:52:29+00:00",
+  "job_count": 69,
   "jobs": [
     {
       "id": "dded366ed8788848",
@@ -34,19 +34,19 @@
       "source": "Bosch"
     },
     {
-      "id": "d7c66f251abcc26e",
-      "title": "Manager, Analytics, Fraud, UK",
-      "company": "Tide",
-      "location": "Bulgaria",
+      "id": "ad82b19db8dc25ed",
+      "title": "Senior Specialist, Catalog Operations EMEA",
+      "company": "Wolt",
+      "location": "Stockholm, Sweden",
       "region": "EU",
-      "category": "Business Analysis & BI",
+      "category": "Operations & Projects",
       "score": 73,
-      "why": "Oblast: Business Analysis & BI. Veštine: sql, excel, kpi, reporting.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
-      "posted_at": "2026-11-05T02:20:44-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
+      "why": "Oblast: Operations & Projects. Veštine: sql, excel, root cause, quality.",
+      "url": "https://job-boards.greenhouse.io/wolt/jobs/8230146",
+      "posted_at": "2026-11-23T08:33:17-05:00",
+      "first_seen": "2026-11-24T00:52:29+00:00",
       "visa_mentioned": false,
-      "source": "Tide"
+      "source": "Wolt"
     },
     {
       "id": "d4a7fa8815154a25",
@@ -62,6 +62,21 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Wolt"
+    },
+    {
+      "id": "d7c66f251abcc26e",
+      "title": "Manager, Analytics, Fraud, UK",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 73,
+      "why": "Oblast: Business Analysis & BI. Veštine: sql, excel, kpi, reporting.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
+      "posted_at": "2026-11-05T02:20:44-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
     },
     {
       "id": "82eb4ca510119943",
@@ -199,36 +214,6 @@
       "source": "Bosch"
     },
     {
-      "id": "a7583dd5ef1bdd32",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Bulgaria",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
-      "posted_at": "2026-11-18T11:04:55-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
-      "id": "b9e87c959ce88057",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Lithuania",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
-      "posted_at": "2026-11-19T06:40:16-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
       "id": "def03cbf988dbf4f",
       "title": "Regional HR Operations Specialist",
       "company": "Wolt",
@@ -289,34 +274,49 @@
       "source": "Wolt"
     },
     {
-      "id": "b2ccbb938cfcc7fd",
-      "title": "Site Reliability Engineering Manager",
+      "id": "a7583dd5ef1bdd32",
+      "title": "Senior Security Operations Responder",
       "company": "Tide",
-      "location": "Lithuania",
+      "location": "Bulgaria",
       "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 64,
-      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8044352003",
-      "posted_at": "2026-11-16T03:35:50-05:00",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
+      "posted_at": "2026-11-18T11:04:55-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
     },
     {
-      "id": "444171423802afc9",
-      "title": "Site Reliability Engineering Manager",
+      "id": "b9e87c959ce88057",
+      "title": "Senior Security Operations Responder",
       "company": "Tide",
-      "location": "Bulgaria",
+      "location": "Lithuania",
       "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 64,
-      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8044286003",
-      "posted_at": "2026-11-16T03:35:50-05:00",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
+      "posted_at": "2026-11-19T06:40:16-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
+    },
+    {
+      "id": "30d043c2efce3449",
+      "title": "Merchant Operations Associate",
+      "company": "Wolt",
+      "location": "Copenhagen, Denmark",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 64,
+      "why": "Oblast: Operations & Projects. Veštine: excel, operations.",
+      "url": "https://job-boards.greenhouse.io/wolt/jobs/8411197",
+      "posted_at": "2026-11-23T10:24:43-05:00",
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Wolt"
     },
     {
       "id": "eccfc6f1c93d61e2",
@@ -349,6 +349,81 @@
       "source": "Wolt"
     },
     {
+      "id": "b2ccbb938cfcc7fd",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Tide",
+      "location": "Lithuania",
+      "region": "EU",
+      "category": "Quality & Engineering",
+      "score": 64,
+      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8044352003",
+      "posted_at": "2026-11-16T03:35:50-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
+    },
+    {
+      "id": "444171423802afc9",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Quality & Engineering",
+      "score": 64,
+      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8044286003",
+      "posted_at": "2026-11-16T03:35:50-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
+    },
+    {
+      "id": "ed4961734f179cd9",
+      "title": "Security Operations & Incident Response Analyst",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 64,
+      "why": "Oblast: Operations & Projects. Veštine: reporting, operations.",
+      "url": "https://jobs.lever.co/aleph/3e87ccca-192b-4559-8911-214b56ad4039",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
+    },
+    {
+      "id": "bd4046c0c2eca414",
+      "title": "Specialist, Data Intelligence & Analytics",
+      "company": "Aleph",
+      "location": "Riga, Latvia",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 64,
+      "why": "Oblast: Business Analysis & BI. Veštine: sql, reporting.",
+      "url": "https://jobs.lever.co/aleph/d4b2f0c4-cb87-4682-93d5-5e52be18dfde",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
+    },
+    {
+      "id": "7f4d8ba66759e12e",
+      "title": "SAP Process Expert – Intralogistics to Demand (f/m/div.)",
+      "company": "Bosch",
+      "location": "Aveiro, pt",
+      "region": "EU",
+      "category": "Supply Chain & Logistics",
+      "score": 64,
+      "why": "Oblast: Supply Chain & Logistics. Veštine: sap, logistics.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163213354",
+      "posted_at": "2026-11-23T12:42:52.287Z",
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
       "id": "cf27dff0f4fffee6",
       "title": "Senior Consultant SAP S/4 HANA Supply Chain Management EWM (w/m/div.)",
       "company": "Bosch",
@@ -362,6 +437,36 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
+    },
+    {
+      "id": "e032457cb03b1d9b",
+      "title": "Tech & Marketing Operations Specialist",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 61,
+      "why": "Oblast: Operations & Projects. Veštine: operations.",
+      "url": "https://jobs.lever.co/aleph/21f2cd48-7161-44c2-9ed2-a554c13af844",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
+    },
+    {
+      "id": "becc0d56d231c651",
+      "title": "Tech & Marketing Operations Specialist",
+      "company": "Aleph",
+      "location": "Ljubljana, Slovenia",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 61,
+      "why": "Oblast: Operations & Projects. Veštine: operations.",
+      "url": "https://jobs.lever.co/aleph/776eebf5-5df0-4f69-b9c4-47b77c30534c",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
     },
     {
       "id": "d5577eecbec1f2fc",
@@ -424,6 +529,21 @@
       "source": "Continental"
     },
     {
+      "id": "0979d3194dd93c4e",
+      "title": "Reporting Specialist",
+      "company": "Bosch",
+      "location": "Timișoara, TM, ro",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 61,
+      "why": "Oblast: Business Analysis & BI. Veštine: reporting.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163168802",
+      "posted_at": "2026-11-23T09:20:29.042Z",
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
       "id": "dc06414459a845ac",
       "title": "Werkstudent im Bereich Sales Operations (w/m/div.)",
       "company": "Bosch",
@@ -479,21 +599,6 @@
       "why": "Oblast: Operations & Projects. Veštine: operations.",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162475139",
       "posted_at": "2026-11-19T09:51:21.586Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "a9df70288f6a4f90",
-      "title": "IT Operations and Security Management",
-      "company": "Bosch",
-      "location": "Timișoara, TM, ro",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 61,
-      "why": "Oblast: Operations & Projects. Veštine: operations.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162451729",
-      "posted_at": "2026-11-19T07:28:00.005Z",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
@@ -572,6 +677,21 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
+    },
+    {
+      "id": "daa49480a0475824",
+      "title": "IT Project Manager – Finance & Digital Transformation",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 58,
+      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
     },
     {
       "id": "6912a9e69459e618",
@@ -724,21 +844,6 @@
       "source": "Continental"
     },
     {
-      "id": "0ee4604b28f85ed9",
-      "title": "Buyer with Slovak",
-      "company": "Continental",
-      "location": "Timișoara, TM, ro",
-      "region": "EU",
-      "category": "Supply Chain & Logistics",
-      "score": 58,
-      "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/Continental/744000162023939",
-      "posted_at": "2026-11-17T09:00:41.763Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Continental"
-    },
-    {
       "id": "35145f546f5acd99",
       "title": "Buyer with Czech",
       "company": "Continental",
@@ -769,6 +874,36 @@
       "source": "Continental"
     },
     {
+      "id": "2c545ed2011ee039",
+      "title": "Buyer and Category Manager EMEA (f/m/div.)",
+      "company": "Bosch",
+      "location": "Cacia, Aveiro, pt",
+      "region": "EU",
+      "category": "Supply Chain & Logistics",
+      "score": 58,
+      "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163222301",
+      "posted_at": "2026-11-23T13:36:17.247Z",
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
+      "id": "ca79514bc96a41a7",
+      "title": "Distribution, Demand and Supply Planning Specialist",
+      "company": "Bosch",
+      "location": "Goleniów, Województwo zachodniopomorskie, pl",
+      "region": "EU",
+      "category": "Supply Chain & Logistics",
+      "score": 58,
+      "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163177363",
+      "posted_at": "2026-11-23T09:46:57.458Z",
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
       "id": "b848a1f73672ed9a",
       "title": "Planeador/a de Materiales",
       "company": "Bosch",
@@ -779,21 +914,6 @@
       "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162740171",
       "posted_at": "2026-11-20T13:58:38.411Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "133553db9830248b",
-      "title": "Distribution, Demand and Supply Planning Specialist",
-      "company": "Bosch",
-      "location": "Goleniów, Województwo zachodniopomorskie, pl",
-      "region": "EU",
-      "category": "Supply Chain & Logistics",
-      "score": 58,
-      "why": "Oblast: Supply Chain & Logistics. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162705939",
-      "posted_at": "2026-11-20T10:49:31.493Z",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
@@ -917,77 +1037,22 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
-    },
-    {
-      "id": "2dac72ea5323e449",
-      "title": "Reliability Test Engineer (f/m/div.)",
-      "company": "Bosch",
-      "location": "Aveiro, pt",
-      "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 58,
-      "why": "Oblast: Quality & Engineering. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161836339",
-      "posted_at": "2026-11-16T15:06:31.438Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "8813500b54713fa5",
-      "title": "IT üzleti elemző | IT Business Analyst",
-      "company": "Bosch",
-      "location": "Hatvan, hu",
-      "region": "EU",
-      "category": "Business Analysis & BI",
-      "score": 58,
-      "why": "Oblast: Business Analysis & BI. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161793869",
-      "posted_at": "2026-11-16T12:22:05.255Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "8a5649dd24cd4496",
-      "title": "Werkstudent Digitalisierung & Business Intelligence im Controlling (w/m/div.)",
-      "company": "Bosch",
-      "location": "Lohr am Main, BY, de",
-      "region": "EU",
-      "category": "Business Analysis & BI",
-      "score": 58,
-      "why": "Oblast: Business Analysis & BI. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161791391",
-      "posted_at": "2026-11-16T12:13:21.018Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "97bdc0c61c83d189",
-      "title": "Bosch Management Consulting Innovation: Consultant, Go-to-Market Practice (f/m/div)",
-      "company": "Bosch",
-      "location": "Gerlingen, BW, de",
-      "region": "EU",
-      "category": "Innovation & Transformation",
-      "score": 58,
-      "why": "Oblast: Innovation & Transformation. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161755289",
-      "posted_at": "2026-11-16T09:13:50.269Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
     }
   ],
   "sources": [
     {
+      "name": "Aleph",
+      "count": 5,
+      "status": "ok"
+    },
+    {
       "name": "Bosch",
-      "count": 29,
+      "count": 27,
       "status": "ok"
     },
     {
       "name": "Continental",
-      "count": 9,
+      "count": 8,
       "status": "ok"
     },
     {
@@ -1022,15 +1087,10 @@
     },
     {
       "name": "Wolt",
-      "count": 10,
+      "count": 12,
       "status": "ok"
     }
   ],
-  "source_errors": [
-    {
-      "name": "ATS / remote source",
-      "status": "failed"
-    }
-  ],
+  "source_errors": [],
   "notice": "Podaci su indikativni, ne garantuju otvoren oglas niti radnu vizu."
 }
