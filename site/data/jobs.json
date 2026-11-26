@@ -1,7 +1,7 @@
 {
   "app": "JobRadar",
-  "generated_at": "2026-11-26T09:31:55+00:00",
-  "job_count": 65,
+  "generated_at": "2026-11-26T22:22:27+00:00",
+  "job_count": 68,
   "jobs": [
     {
       "id": "dded366ed8788848",
@@ -184,21 +184,6 @@
       "source": "Wolt"
     },
     {
-      "id": "a7583dd5ef1bdd32",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Bulgaria",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
-      "posted_at": "2026-11-23T23:39:48-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
       "id": "b9e87c959ce88057",
       "title": "Senior Security Operations Responder",
       "company": "Tide",
@@ -208,6 +193,21 @@
       "score": 67,
       "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
       "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
+      "posted_at": "2026-11-23T23:39:48-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
+    },
+    {
+      "id": "a7583dd5ef1bdd32",
+      "title": "Senior Security Operations Responder",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
       "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
@@ -259,17 +259,32 @@
       "source": "Wolt"
     },
     {
-      "id": "fd41bf4facd82086",
+      "id": "7b8d9845b0fc2471",
       "title": "Senior Manager, Revenue Operations, DashOS EMEA",
       "company": "Wolt",
-      "location": "Berlin, Germany; Helsinki, Finland; London, England",
+      "location": "Berlin, Germany",
       "region": "EU",
       "category": "Operations & Projects",
       "score": 67,
       "why": "Oblast: Operations & Projects. Veštine: sql, excel, operations.",
-      "url": "https://job-boards.greenhouse.io/wolt/jobs/8406208",
-      "posted_at": "2026-11-20T11:21:19-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
+      "url": "https://job-boards.greenhouse.io/wolt/jobs/8419442",
+      "posted_at": "2026-11-26T12:43:33-05:00",
+      "first_seen": "2026-11-26T22:22:27+00:00",
+      "visa_mentioned": false,
+      "source": "Wolt"
+    },
+    {
+      "id": "7979005196d855c9",
+      "title": "Senior Manager, Revenue Operations, DashOS EMEA",
+      "company": "Wolt",
+      "location": "Helsinki, Finland",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: sql, excel, operations.",
+      "url": "https://job-boards.greenhouse.io/wolt/jobs/8419444",
+      "posted_at": "2026-11-26T12:43:35-05:00",
+      "first_seen": "2026-11-26T22:22:27+00:00",
       "visa_mentioned": false,
       "source": "Wolt"
     },
@@ -499,21 +514,6 @@
       "source": "Continental"
     },
     {
-      "id": "963ab86a8ccda610",
-      "title": "Coordinator Facility Operations (m/w/d) - REF100131G",
-      "company": "Continental",
-      "location": "Hannover, NDS, de",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 61,
-      "why": "Oblast: Operations & Projects. Veštine: operations.",
-      "url": "https://jobs.smartrecruiters.com/Continental/744000161253009",
-      "posted_at": "2026-11-12T09:34:33.823Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Continental"
-    },
-    {
       "id": "0cd9fd01c2ece0bd",
       "title": "Quality and Manufacturing Tools Coordinator- Tires",
       "company": "Continental",
@@ -664,19 +664,34 @@
       "source": "Bosch"
     },
     {
-      "id": "0f6d4c691a84f839",
-      "title": "eAxle Transmission Validation Team Leader",
-      "company": "Bosch",
-      "location": "Budapest, hu",
+      "id": "daa49480a0475824",
+      "title": "IT Project Manager – Finance & Digital Transformation",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
       "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 61,
-      "why": "Oblast: Quality & Engineering. Veštine: validation.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162325571",
-      "posted_at": "2026-11-18T15:18:11.153Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
+      "category": "Operations & Projects",
+      "score": 58,
+      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
       "visa_mentioned": false,
-      "source": "Bosch"
+      "source": "Aleph"
+    },
+    {
+      "id": "1bdf59bbe803a6d3",
+      "title": "Senior Business Analyst | Prime Brokerage",
+      "company": "Endava",
+      "location": "Warsaw, Mazovia, pl",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 58,
+      "why": "Oblast: Business Analysis & BI. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.smartrecruiters.com/Endava/744000163850119",
+      "posted_at": "2026-11-26T10:54:11.967Z",
+      "first_seen": "2026-11-26T22:22:27+00:00",
+      "visa_mentioned": false,
+      "source": "Endava"
     },
     {
       "id": "6912a9e69459e618",
@@ -799,21 +814,6 @@
       "source": "Endava"
     },
     {
-      "id": "daa49480a0475824",
-      "title": "IT Project Manager – Finance & Digital Transformation",
-      "company": "Aleph",
-      "location": "Madrid, Spain",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 58,
-      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
-      "posted_at": null,
-      "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Aleph"
-    },
-    {
       "id": "5235cdf8750f5612",
       "title": "IT EDI Integration Project Coordinator",
       "company": "Continental",
@@ -872,6 +872,51 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Continental"
+    },
+    {
+      "id": "79894511ae0ab252",
+      "title": "Project Coordinator Safety | Bosch Building Technologies",
+      "company": "Bosch",
+      "location": "Berkel en Rodenrijs, ZH, nl",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 58,
+      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163869309",
+      "posted_at": "2026-11-26T12:58:07.688Z",
+      "first_seen": "2026-11-26T22:22:27+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
+      "id": "9a87b510e6fe5250",
+      "title": "Pflichtpraktikum Business Process Digitalisierung im Zentralcontrolling – Mobility Electronics (w/m/div.)",
+      "company": "Bosch",
+      "location": "Reutlingen, BW, de",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 58,
+      "why": "Oblast: Business Analysis & BI. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163863379",
+      "posted_at": "2026-11-26T12:19:16.241Z",
+      "first_seen": "2026-11-26T22:22:27+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
+      "id": "0c6d4ab1bca7d374",
+      "title": "Purchasing Project Manager",
+      "company": "Bosch",
+      "location": "Blaj, Alba, ro",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 58,
+      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163845329",
+      "posted_at": "2026-11-26T10:25:33.013Z",
+      "first_seen": "2026-11-26T22:22:27+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
     },
     {
       "id": "83a63d05dd759e6d",
@@ -987,12 +1032,12 @@
     },
     {
       "name": "Bosch",
-      "count": 20,
+      "count": 22,
       "status": "ok"
     },
     {
       "name": "Continental",
-      "count": 9,
+      "count": 8,
       "status": "ok"
     },
     {
@@ -1002,7 +1047,7 @@
     },
     {
       "name": "Endava",
-      "count": 12,
+      "count": 13,
       "status": "ok"
     },
     {
@@ -1027,7 +1072,7 @@
     },
     {
       "name": "Wolt",
-      "count": 14,
+      "count": 15,
       "status": "ok"
     }
   ],
