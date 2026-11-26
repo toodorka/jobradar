@@ -1,6 +1,6 @@
 {
   "app": "JobRadar",
-  "generated_at": "2026-11-25T22:34:18+00:00",
+  "generated_at": "2026-11-26T09:31:55+00:00",
   "job_count": 65,
   "jobs": [
     {
@@ -184,21 +184,6 @@
       "source": "Wolt"
     },
     {
-      "id": "b9e87c959ce88057",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Lithuania",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
-      "posted_at": "2026-11-23T23:39:48-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
       "id": "a7583dd5ef1bdd32",
       "title": "Senior Security Operations Responder",
       "company": "Tide",
@@ -208,6 +193,21 @@
       "score": 67,
       "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
       "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
+      "posted_at": "2026-11-23T23:39:48-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
+    },
+    {
+      "id": "b9e87c959ce88057",
+      "title": "Senior Security Operations Responder",
+      "company": "Tide",
+      "location": "Lithuania",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
       "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
@@ -379,21 +379,6 @@
       "source": "Wolt"
     },
     {
-      "id": "7f4d8ba66759e12e",
-      "title": "SAP Process Expert – Intralogistics to Demand (f/m/div.)",
-      "company": "Bosch",
-      "location": "Aveiro, pt",
-      "region": "EU",
-      "category": "Supply Chain & Logistics",
-      "score": 64,
-      "why": "Oblast: Supply Chain & Logistics. Veštine: sap, logistics.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163213354",
-      "posted_at": "2026-11-23T12:42:52.287Z",
-      "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
       "id": "ed4961734f179cd9",
       "title": "Security Operations & Incident Response Analyst",
       "company": "Aleph",
@@ -418,6 +403,51 @@
       "score": 64,
       "why": "Oblast: Business Analysis & BI. Veštine: sql, reporting.",
       "url": "https://jobs.lever.co/aleph/d4b2f0c4-cb87-4682-93d5-5e52be18dfde",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
+    },
+    {
+      "id": "7f4d8ba66759e12e",
+      "title": "SAP Process Expert – Intralogistics to Demand (f/m/div.)",
+      "company": "Bosch",
+      "location": "Aveiro, pt",
+      "region": "EU",
+      "category": "Supply Chain & Logistics",
+      "score": 64,
+      "why": "Oblast: Supply Chain & Logistics. Veštine: sap, logistics.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163213354",
+      "posted_at": "2026-11-23T12:42:52.287Z",
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
+      "id": "e032457cb03b1d9b",
+      "title": "Tech & Marketing Operations Specialist",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 61,
+      "why": "Oblast: Operations & Projects. Veštine: operations.",
+      "url": "https://jobs.lever.co/aleph/21f2cd48-7161-44c2-9ed2-a554c13af844",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
+    },
+    {
+      "id": "becc0d56d231c651",
+      "title": "Tech & Marketing Operations Specialist",
+      "company": "Aleph",
+      "location": "Ljubljana, Slovenia",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 61,
+      "why": "Oblast: Operations & Projects. Veštine: operations.",
+      "url": "https://jobs.lever.co/aleph/776eebf5-5df0-4f69-b9c4-47b77c30534c",
       "posted_at": null,
       "first_seen": "2026-11-24T00:52:29+00:00",
       "visa_mentioned": false,
@@ -497,6 +527,21 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Continental"
+    },
+    {
+      "id": "79c15ce188f03c84",
+      "title": "Pflichtpraktikum Purchasing Quality and Technology",
+      "company": "Bosch",
+      "location": "Stuttgart, BW, de",
+      "region": "EU",
+      "category": "Quality & Engineering",
+      "score": 61,
+      "why": "Oblast: Quality & Engineering. Veštine: quality.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163806779",
+      "posted_at": "2026-11-26T05:11:25.064Z",
+      "first_seen": "2026-11-26T09:31:55+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
     },
     {
       "id": "450c312994006080",
@@ -634,36 +679,6 @@
       "source": "Bosch"
     },
     {
-      "id": "e032457cb03b1d9b",
-      "title": "Tech & Marketing Operations Specialist",
-      "company": "Aleph",
-      "location": "Madrid, Spain",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 61,
-      "why": "Oblast: Operations & Projects. Veštine: operations.",
-      "url": "https://jobs.lever.co/aleph/21f2cd48-7161-44c2-9ed2-a554c13af844",
-      "posted_at": null,
-      "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Aleph"
-    },
-    {
-      "id": "becc0d56d231c651",
-      "title": "Tech & Marketing Operations Specialist",
-      "company": "Aleph",
-      "location": "Ljubljana, Slovenia",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 61,
-      "why": "Oblast: Operations & Projects. Veštine: operations.",
-      "url": "https://jobs.lever.co/aleph/776eebf5-5df0-4f69-b9c4-47b77c30534c",
-      "posted_at": null,
-      "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Aleph"
-    },
-    {
       "id": "6912a9e69459e618",
       "title": "Senior Data Analyst",
       "company": "Endava",
@@ -782,6 +797,21 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Endava"
+    },
+    {
+      "id": "daa49480a0475824",
+      "title": "IT Project Manager – Finance & Digital Transformation",
+      "company": "Aleph",
+      "location": "Madrid, Spain",
+      "region": "EU",
+      "category": "Operations & Projects",
+      "score": 58,
+      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
+      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
+      "posted_at": null,
+      "first_seen": "2026-11-24T00:52:29+00:00",
+      "visa_mentioned": false,
+      "source": "Aleph"
     },
     {
       "id": "5235cdf8750f5612",
@@ -947,36 +977,6 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
-    },
-    {
-      "id": "44e2a372d0a66cd6",
-      "title": "Praktikum im Bereich Reliability Engineering – Bremsregelsysteme",
-      "company": "Bosch",
-      "location": "Abstatt, BW, de",
-      "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 58,
-      "why": "Oblast: Quality & Engineering. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162293551",
-      "posted_at": "2026-11-18T13:26:56.785Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "daa49480a0475824",
-      "title": "IT Project Manager – Finance & Digital Transformation",
-      "company": "Aleph",
-      "location": "Madrid, Spain",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 58,
-      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.lever.co/aleph/dd8e1d03-c3c3-4ca8-a980-3b72711e76c3",
-      "posted_at": null,
-      "first_seen": "2026-11-24T00:52:29+00:00",
-      "visa_mentioned": false,
-      "source": "Aleph"
     }
   ],
   "sources": [
