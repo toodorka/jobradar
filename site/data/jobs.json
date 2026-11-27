@@ -1,7 +1,7 @@
 {
   "app": "JobRadar",
-  "generated_at": "2026-11-26T22:22:27+00:00",
-  "job_count": 68,
+  "generated_at": "2026-11-27T09:42:31+00:00",
+  "job_count": 62,
   "jobs": [
     {
       "id": "dded366ed8788848",
@@ -17,21 +17,6 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
-    },
-    {
-      "id": "d7c66f251abcc26e",
-      "title": "Manager, Analytics, Fraud, UK",
-      "company": "Tide",
-      "location": "Bulgaria",
-      "region": "EU",
-      "category": "Business Analysis & BI",
-      "score": 73,
-      "why": "Oblast: Business Analysis & BI. Veštine: sql, excel, kpi, reporting.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
-      "posted_at": "2026-11-23T23:39:48-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
     },
     {
       "id": "ad82b19db8dc25ed",
@@ -62,6 +47,21 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Wolt"
+    },
+    {
+      "id": "d7c66f251abcc26e",
+      "title": "Manager, Analytics, Fraud, UK",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Business Analysis & BI",
+      "score": 73,
+      "why": "Oblast: Business Analysis & BI. Veštine: sql, excel, kpi, reporting.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
+      "posted_at": "2026-11-23T23:39:48-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
     },
     {
       "id": "82eb4ca510119943",
@@ -124,6 +124,21 @@
       "source": "Endava"
     },
     {
+      "id": "fd8d2973d5e94801",
+      "title": "Logistics Planning Team Manager",
+      "company": "Bosch",
+      "location": "Blaj, Alba, ro",
+      "region": "EU",
+      "category": "Supply Chain & Logistics",
+      "score": 73,
+      "why": "Oblast: Supply Chain & Logistics. Veštine: logistics.",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163973229",
+      "posted_at": "2026-11-27T07:33:02.343Z",
+      "first_seen": "2026-11-27T09:42:31+00:00",
+      "visa_mentioned": false,
+      "source": "Bosch"
+    },
+    {
       "id": "7271842548cc209c",
       "title": "Software Quality Assurance Engineer (f/m/div.)",
       "company": "Bosch",
@@ -184,36 +199,6 @@
       "source": "Wolt"
     },
     {
-      "id": "b9e87c959ce88057",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Lithuania",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
-      "posted_at": "2026-11-23T23:39:48-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
-      "id": "a7583dd5ef1bdd32",
-      "title": "Senior Security Operations Responder",
-      "company": "Tide",
-      "location": "Bulgaria",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
-      "posted_at": "2026-11-23T23:39:48-05:00",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Tide"
-    },
-    {
       "id": "74ed4c6663cf6d2e",
       "title": "Content, Training & Quality Specialist",
       "company": "Wolt",
@@ -259,51 +244,6 @@
       "source": "Wolt"
     },
     {
-      "id": "7b8d9845b0fc2471",
-      "title": "Senior Manager, Revenue Operations, DashOS EMEA",
-      "company": "Wolt",
-      "location": "Berlin, Germany",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: sql, excel, operations.",
-      "url": "https://job-boards.greenhouse.io/wolt/jobs/8419442",
-      "posted_at": "2026-11-26T12:43:33-05:00",
-      "first_seen": "2026-11-26T22:22:27+00:00",
-      "visa_mentioned": false,
-      "source": "Wolt"
-    },
-    {
-      "id": "7979005196d855c9",
-      "title": "Senior Manager, Revenue Operations, DashOS EMEA",
-      "company": "Wolt",
-      "location": "Helsinki, Finland",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: sql, excel, operations.",
-      "url": "https://job-boards.greenhouse.io/wolt/jobs/8419444",
-      "posted_at": "2026-11-26T12:43:35-05:00",
-      "first_seen": "2026-11-26T22:22:27+00:00",
-      "visa_mentioned": false,
-      "source": "Wolt"
-    },
-    {
-      "id": "ee4fb01b872ebf7a",
-      "title": "Strategy & Business Operations Manager, Wolt Drive & Deliveroo Express",
-      "company": "Wolt",
-      "location": "Helsinki, Finland; London, United Kingdom - Deliveroo",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 67,
-      "why": "Oblast: Operations & Projects. Veštine: excel, operations, logistics.",
-      "url": "https://job-boards.greenhouse.io/wolt/jobs/8336365",
-      "posted_at": "2026-11-24T01:41:08-05:00",
-      "first_seen": "2026-11-24T10:56:13+00:00",
-      "visa_mentioned": false,
-      "source": "Wolt"
-    },
-    {
       "id": "badd59ff8bb0a8f3",
       "title": "Strategy & Operations Manager, Pricing & Affordability",
       "company": "Wolt",
@@ -319,30 +259,30 @@
       "source": "Wolt"
     },
     {
-      "id": "b2ccbb938cfcc7fd",
-      "title": "Site Reliability Engineering Manager",
+      "id": "a7583dd5ef1bdd32",
+      "title": "Senior Security Operations Responder",
       "company": "Tide",
-      "location": "Lithuania",
+      "location": "Bulgaria",
       "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 64,
-      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8044352003",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8204664003",
       "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Tide"
     },
     {
-      "id": "444171423802afc9",
-      "title": "Site Reliability Engineering Manager",
+      "id": "b9e87c959ce88057",
+      "title": "Senior Security Operations Responder",
       "company": "Tide",
-      "location": "Bulgaria",
+      "location": "Lithuania",
       "region": "EU",
-      "category": "Quality & Engineering",
-      "score": 64,
-      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
-      "url": "https://job-boards.greenhouse.io/tide/jobs/8044286003",
+      "category": "Operations & Projects",
+      "score": 67,
+      "why": "Oblast: Operations & Projects. Veštine: excel, root cause, operations.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8209101003",
       "posted_at": "2026-11-23T23:39:48-05:00",
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
@@ -392,6 +332,36 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Wolt"
+    },
+    {
+      "id": "b2ccbb938cfcc7fd",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Tide",
+      "location": "Lithuania",
+      "region": "EU",
+      "category": "Quality & Engineering",
+      "score": 64,
+      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8044352003",
+      "posted_at": "2026-11-23T23:39:48-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
+    },
+    {
+      "id": "444171423802afc9",
+      "title": "Site Reliability Engineering Manager",
+      "company": "Tide",
+      "location": "Bulgaria",
+      "region": "EU",
+      "category": "Quality & Engineering",
+      "score": 64,
+      "why": "Oblast: Quality & Engineering. Veštine: 8d, root cause.",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8044286003",
+      "posted_at": "2026-11-23T23:39:48-05:00",
+      "first_seen": "2026-11-22T18:30:46+00:00",
+      "visa_mentioned": false,
+      "source": "Tide"
     },
     {
       "id": "ed4961734f179cd9",
@@ -634,36 +604,6 @@
       "source": "Bosch"
     },
     {
-      "id": "4e5c6a591ac8123c",
-      "title": "Pflichtpraktikum Digitalisierung & KI in der globalen Supply Chain",
-      "company": "Bosch",
-      "location": "Stuttgart, BW, de",
-      "region": "EU",
-      "category": "Supply Chain & Logistics",
-      "score": 61,
-      "why": "Oblast: Supply Chain & Logistics. Veštine: supply chain.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162485519",
-      "posted_at": "2026-11-19T10:42:45.833Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
-      "id": "1a539ab7d457d7e5",
-      "title": "Working Student - Manufacturing Operations",
-      "company": "Bosch",
-      "location": "Blaj, Alba, ro",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 61,
-      "why": "Oblast: Operations & Projects. Veštine: operations.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162475139",
-      "posted_at": "2026-11-19T09:51:21.586Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
-    },
-    {
       "id": "daa49480a0475824",
       "title": "IT Project Manager – Finance & Digital Transformation",
       "company": "Aleph",
@@ -859,21 +799,6 @@
       "source": "Continental"
     },
     {
-      "id": "626076e1754f8e3b",
-      "title": "Senior Regional ITSM and Project Coordinator EMEA - Tires",
-      "company": "Continental",
-      "location": "Timișoara, TM, ro",
-      "region": "EU",
-      "category": "Operations & Projects",
-      "score": 58,
-      "why": "Oblast: Operations & Projects. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/Continental/744000160588644",
-      "posted_at": "2026-11-09T11:20:30.907Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Continental"
-    },
-    {
       "id": "79894511ae0ab252",
       "title": "Project Coordinator Safety | Bosch Building Technologies",
       "company": "Bosch",
@@ -1007,21 +932,6 @@
       "first_seen": "2026-11-22T18:30:46+00:00",
       "visa_mentioned": false,
       "source": "Bosch"
-    },
-    {
-      "id": "87e7e42f456f8c66",
-      "title": "Pflichtpraktikum Kommunikation & Change Management im Controlling - Transformationsprojekt",
-      "company": "Bosch",
-      "location": "Lohr am Main, BY, de",
-      "region": "EU",
-      "category": "Innovation & Transformation",
-      "score": 58,
-      "why": "Oblast: Innovation & Transformation. Naziv pozicije odgovara iskustvu.",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162476430",
-      "posted_at": "2026-11-19T10:02:38.126Z",
-      "first_seen": "2026-11-22T18:30:46+00:00",
-      "visa_mentioned": false,
-      "source": "Bosch"
     }
   ],
   "sources": [
@@ -1032,12 +942,12 @@
     },
     {
       "name": "Bosch",
-      "count": 22,
+      "count": 20,
       "status": "ok"
     },
     {
       "name": "Continental",
-      "count": 8,
+      "count": 7,
       "status": "ok"
     },
     {
@@ -1072,7 +982,7 @@
     },
     {
       "name": "Wolt",
-      "count": 15,
+      "count": 12,
       "status": "ok"
     }
   ],
