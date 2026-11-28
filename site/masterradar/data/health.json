@@ -1,72 +1,72 @@
 {
-  "generatedAt": "2026-11-27",
+  "generatedAt": "2026-11-28",
   "info": "Tehnicka provera zvaničnih web stranica. NE potvrđuje rok niti finansiranje.",
   "sources": {
     "euroculture": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://www.euroculturemaster.eu/application-procedure",
       "reachable": true,
       "lastChangedAt": "2026-11-23",
       "fingerprint": "cf91dfc0f13899402d78"
     },
-    "glocal": {
-      "checkedAt": "2026-11-27",
-      "url": "https://globallocal-erasmusmundus.eu/how-to-apply/",
-      "reachable": false,
-      "lastChangedAt": null,
-      "fingerprint": "be909941a34ce755181a"
-    },
     "mapp": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://www.mundusmapp.org/admissions-calendar/",
       "reachable": true,
       "lastChangedAt": null,
       "fingerprint": "616c25f7bdc144739b0a"
     },
+    "glocal": {
+      "checkedAt": "2026-11-28",
+      "url": "https://globallocal-erasmusmundus.eu/how-to-apply/",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "be909941a34ce755181a"
+    },
     "maastricht": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/financing-your-studies/scholarships/maastricht-university-nl-high",
       "reachable": true,
       "lastChangedAt": null,
       "fingerprint": "85041df7ba3795c17a6c"
     },
     "clide": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://clide.umk.pl/pages/apply/",
       "reachable": true,
       "lastChangedAt": "2026-11-27",
       "fingerprint": "572b1251aae17c0a6e82"
     },
     "polimi": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://dynamicpoli.polimi.it/en/prospective-students/how-much-does-it-cost/scholarships",
       "reachable": true,
       "lastChangedAt": null,
       "fingerprint": "4ab004d3fdc90a1b02bc"
     },
     "meta40": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://portal.master-meta4-0.eu/index.php",
       "reachable": true,
       "lastChangedAt": null,
       "fingerprint": "8c9b079cf4dd27f28b48"
     },
     "noha": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://www.nohanet.org/masters",
       "reachable": true,
       "lastChangedAt": "2026-11-27",
       "fingerprint": "55ceecd0df06030696ff"
     },
     "padova": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://www.unipd.it/en/corsi-di-laurea/management-engineering-study-track",
       "reachable": true,
       "lastChangedAt": "2026-11-25",
       "fingerprint": "8cc288928ef38fb451fa"
     },
     "mbzuai": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://mbzuai.ac.ae/admissions/graduate-masters-admissions",
       "reachable": null,
       "lastChangedAt": null,
@@ -74,72 +74,72 @@
       "error": "HTTPError"
     },
     "kaist": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
       "reachable": true,
-      "lastChangedAt": "2026-11-27",
-      "fingerprint": "73657d236f0b06c83b2a"
+      "lastChangedAt": "2026-11-28",
+      "fingerprint": "7feaa648eb8cef8cfe91"
     },
     "xiamen": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://admissions.xmu.edu.cn/info/1061/4630.htm",
       "reachable": true,
       "lastChangedAt": null,
       "fingerprint": "b4c15382168739f17ffd"
     },
+    "stanford": {
+      "checkedAt": "2026-11-28",
+      "url": "https://msande.stanford.edu/academics-admissions/graduate/admission/ms-admission",
+      "reachable": true,
+      "lastChangedAt": null,
+      "fingerprint": "82afb094cca850ce9fc8"
+    },
     "kdi": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://www.kdischool.ac.kr/menu.es?mid=a40203000000",
       "reachable": true,
       "lastChangedAt": null,
       "fingerprint": "b8b4cb4a9a1043f80ceb"
     },
-    "gks": {
-      "checkedAt": "2026-11-27",
-      "url": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
-      "reachable": true,
-      "lastChangedAt": null,
-      "fingerprint": "450ee45787a92e92bf20"
-    },
     "changan": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://ies.chd.edu.cn/en/2026/1109/c8645a263520/page.htm",
       "reachable": true,
       "lastChangedAt": "2026-11-27",
       "fingerprint": "f46d5aa772ca737e3673"
     },
     "fulbright": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://rs.usembassy.gov/fulbright-graduate-study-program-competition-2027-2028/",
       "reachable": null,
       "lastChangedAt": null,
       "fingerprint": null,
       "error": "HTTPError"
     },
-    "stanford": {
-      "checkedAt": "2026-11-27",
-      "url": "https://msande.stanford.edu/academics-admissions/graduate/admission/ms-admission",
+    "hbku": {
+      "checkedAt": "2026-11-28",
+      "url": "https://www.hbku.edu.qa/en/cse/admission-requirements?tabid=programs_and_requirements",
       "reachable": true,
       "lastChangedAt": null,
-      "fingerprint": "82afb094cca850ce9fc8"
+      "fingerprint": "d937c2de14e1efba3193"
     },
     "gemma": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://gemmaerasmusmundus.eu/information/presentation/applying/students",
       "reachable": null,
       "lastChangedAt": null,
       "fingerprint": null,
       "error": "URLError"
     },
-    "hbku": {
-      "checkedAt": "2026-11-27",
-      "url": "https://www.hbku.edu.qa/en/cse/admission-requirements?tabid=programs_and_requirements",
+    "gks": {
+      "checkedAt": "2026-11-28",
+      "url": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
       "reachable": true,
       "lastChangedAt": null,
-      "fingerprint": "d937c2de14e1efba3193"
+      "fingerprint": "450ee45787a92e92bf20"
     },
     "kaust": {
-      "checkedAt": "2026-11-27",
+      "checkedAt": "2026-11-28",
       "url": "https://tie.kaust.edu.sa/",
       "reachable": true,
       "lastChangedAt": "2026-11-23",
